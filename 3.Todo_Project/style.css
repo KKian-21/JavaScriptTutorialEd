@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    background-image: linear-gradient(120deg, #f6d365, #d66c4f);
+    color: white;
+    font-family: "Poppins", sans-serif;
+    min-width: 100vh;
+}
+header{
+    font-size: 1.5rem;
+}
+header,form{
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form input,
+form button{
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: none;
+    background: white;
+}
+form button{
+    color: #d66c4f;
+    background: white;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+form button:hover{
+    background: #d66c4f;
+    color: white;
+}
